@@ -373,7 +373,7 @@ Searches using OMDb API's `s` parameter return a list of media (movies/series/ga
 
 ```{r}
 batman_list <- OMDb_movie(by = "search", value = "Batman")
-batman_list
+batman_list %>% head()
 ```
 
 If the `page` parameter is specified, then it will only return the results on the page (10 results on a page):
@@ -462,7 +462,7 @@ I think it will be interesting to look at the movies of DC's another big IP: Sup
 
 ```{r}
 superman_list <- OMDb_movie(by = "search", value = "Superman")
-superman_list
+superman_list %>% head()
 ```
 
 ```{r}
@@ -639,7 +639,7 @@ df_DC %>%
   ggplot(aes(popularity, BoxOffice, color = Hero)) +
   geom_point(na.rm = TRUE) +
   labs(
-    title = "Box Office of Batman and Super Movies vs. Popularity Score",
+    title = "Box Office of Batman and Superman Movies vs. Popularity Score",
     subtitle = "Films with MPA Ratings",
     x = "Popularity Score [Voting number times ratings]",
     y = "Box Office [$]"

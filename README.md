@@ -39,4 +39,4 @@ API queries are done to ensure efficiency and bug-free.
 
 ## Part 3 - EDA
 
-We focus on Spiderman and Superman movies, series and games in this work. After the queries, we filter and transform the data sets. Histogram grouped by title types are used to show the growth by the released year. Stacked plots and side-by-side bar plots, box plots and scatter matrix plots are used for visual comparisons. At the end, we show there is a great dependency between box office and the popularity scores.
+We focus on batman and Superman movies, series and games in this work. After the queries, we filter and transform the data sets. Histogram grouped by title types are used to show the growth by the released year. Stacked plots and side-by-side bar plots, box plots and scatter matrix plots are used for visual comparisons. At the end, we show there is a great dependency between box office and the popularity scores.
