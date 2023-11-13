@@ -1,15 +1,22 @@
 ---
-title: "ST558 Porject 1"
+title: "Movie Database API Query"
 author: "Chien-Lan Hsueh"
-institute: Online Statistics Master Program, NCSU
-date: "`r Sys.Date()`"
+date: "2022-06-26"
 output:
+  github_document:
+    toc: true
+    df_print: kable
+    html_preview: false
+    math_method: webtex
+  pdf_document:
+    latex_engine: xelatex
+    highlight: haddock
+    df_print: tibble
   html_document:
-    df_print: paged
-  html_notebook:
     theme: cerulean
     highlight: haddock
     code_folding: none
+    df_print: paged
 ---
 
 ```{r include=FALSE}
@@ -34,7 +41,7 @@ library(knitr)
 rmarkdown::render(
   input = input, 
   output_format = github_document(html_preview = FALSE), 
-  output_file = "README.md"
+  output_file = "report.md"
   output_dir = output_dir
 )
 ```
@@ -326,7 +333,7 @@ super3 <- OMDb_movie(by = "id", value = "tt0772202") # game
 super3
 ```
 
-Note: If a query returns a movie, the variable `ratings` is a dateframe with two columns: `Ratings$Source` and `RatingsValue`. In a tibble, this is a list column (a column that stores a dataframe in it). The dataframe printout might look differently depending on the rendering options.
+Note: If a query returns a movie, the variable `ratings` is a date frame with two columns: `Ratings$Source` and `RatingsValue`. In a tibble, this is a list column (a column that stores a data frame in it). The data frame printout might look differently depending on the rendering options.
 
 
 
