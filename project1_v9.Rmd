@@ -3,20 +3,20 @@ title: "Movie Database API Query"
 author: "Chien-Lan Hsueh"
 date: "2022-06-26"
 output:
-  github_document:
-    toc: true
-    df_print: kable
-    html_preview: false
-    math_method: webtex
-  pdf_document:
-    latex_engine: xelatex
-    highlight: haddock
-    df_print: tibble
   html_document:
     theme: cerulean
     highlight: haddock
     code_folding: none
     df_print: paged
+  pdf_document:
+    latex_engine: xelatex
+    highlight: haddock
+    df_print: tibble
+  github_document:
+    toc: true
+    df_print: kable
+    html_preview: false
+    math_method: webtex
 ---
 
 ```{r include=FALSE}

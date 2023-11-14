@@ -11,17 +11,29 @@ Key features:
 - Correlation Analysis
 - Histogram, Bar Plot, Box Plot, Scatter Plot
 
+R packages used:
+
+- `here`: enables easy file referencing and builds file paths in a OS-independent way
+- `keyring`: provides OS-independent 'API' to access system's credential store
+- `stats`: loads this before loading `tidyverse` to avoid masking some `tidyverse` functions
+- `tidyverse`: includes collections of useful packages like `dplyr` (data manipulation), `tidyr` (tidying data),  `ggplots` (creating graphs), etc.
+- `rlang`: deals with missing arguments in our helper functions
+- `lubridate`: handle date and datetime data type
+- `glue`: offers interpreted string literals for easy creation of dynamic messages and labels
+- `scales`: formats and labels scales nicely for better visualization
+- `httr`: performs HTTP web APIs
+- `jsonliet`: parses data stored in JSON format
+- `GGally`: plots a very nice scatterplot matrix 
+
 ## Project Report
 
-The analysis results with all theoretical backgrounds and math derivations are included in the [project report](./project1_v9.md) ([R Markdown](./project1_v9.Rmd)).
-
-Original Completion Date: June 26, 2022
+[Project report](./project1_v9.md) ([R Markdown](./project1_v9.Rmd))
 
 Author: Chien-Lan Hsueh (chienlan.hsueh at gmail.com)
 
 ## Overview and Project Goal
 
-In this project, we contact an API provided on the open movie database ([OMDb](https://www.omdbapi.com/)) using functions created to query, parse, and return well-structured data. With the obtained data from the API, do exploratory data analysis.
+In this project, we contact an API provided on the open movie database ([OMDb](https://www.omdbapi.com/)) using functions created to query, parse, and return well-structured data. With the obtained data from the API, exploratory data analysis is done.
 
 ## Part 1 - Setup and Helper Functions of API Queries
 
