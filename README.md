@@ -27,9 +27,9 @@ R packages used:
 
 ## Project Report
 
-[Project report](./project1_v9.md) ([R Markdown](./project1_v9.Rmd))
+[Project report](./project1_v9.md) ([HTML](https://rpubs.com/clh2021/1113658)) ([R Markdown](./project1_v9.Rmd))
 
-Author: Chien-Lan Hsueh (chienlan.hsueh at gmail.com)
+Chien-Lan Hsueh (chienlan.hsueh at gmail.com)
 
 ## Overview and Project Goal
 
