@@ -26,18 +26,10 @@ output:
     df_print: paged
 ---
 
-```{r include=FALSE}
-knitr::opts_chunk$set(fig.path = "./images/")
-```
-
-
 ## Introduction
 [The Open Movie Database (OMDb)](https://www.omdbapi.com/) is a public online database and provides API to use the web service for movie information.
 
 In this project, I will go through my setup including a script to render the rmarkdown, and the tools and libraries I use in this project. Then I will develop a set of helper functions including a wrapper function to make the API calls easy with returned data in a data frame format. After checking all the functions work as expected, I will then use it to obtain some movie information from OMDb web service and perform  some basic EDA including numerical and graphical summaries on the data.
-
-Meanwhile, a [blog](https://chsueh2.github.io/ST558-1st-project.html) is posted on my GitHub pages to share my experience and thinking when doing this project.
-
 
 ## Setup 0: Codes to Render this Markdown Page
 This code chunk (don't execute) shows how to use `RMarkdown::render()` to render this rmarkdown document. 

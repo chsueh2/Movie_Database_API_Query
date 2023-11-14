@@ -39,10 +39,6 @@ checking all the functions work as expected, I will then use it to
 obtain some movie information from OMDb web service and perform some
 basic EDA including numerical and graphical summaries on the data.
 
-Meanwhile, a [blog](https://chsueh2.github.io/ST558-1st-project.html) is
-posted on my GitHub pages to share my experience and thinking when doing
-this project.
-
 ## Setup 0: Codes to Render this Markdown Page
 
 This code chunk (don’t execute) shows how to use `RMarkdown::render()`
