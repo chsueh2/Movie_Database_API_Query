@@ -21,9 +21,17 @@ Author: Chien-Lan Hsueh (chienlan.hsueh at gmail.com)
 
 ## Overview and Project Goal
 
+In this project, we contact an API provided on the open movie database ([OMDb](https://www.omdbapi.com/)) using functions created to query, parse, and return well-structured data. With the obtained data from the API, do exploratory data analysis.
+
 ## Part 1 - Setup and Helper Functions of API Queries
 
-Use `keyring` to store and manage login credentials for API queries. Several helper functions are created to make API queries and data parsing processes easy and reliable. 
+We use `keyring` to store and manage login credentials for API queries. Several helper functions are created to make API queries and data parsing processes easy and reliable. 
+
+A query is done with the following helper functions we created in this work:
+
+1. `OMDb_setup_query()` to set up a query string including the API key and query criteria.
+1. `OMDB_query()` to send a query request, convert and parse the response data, and check the execution status. 
+1. `OMDb_parse_movie()` to parse JSON info of a movie and save in a data frame after data type conversion for numeric data
 
 ## Part 2 - API Queries
 
