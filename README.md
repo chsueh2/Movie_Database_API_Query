@@ -2,6 +2,8 @@
 
 Contact a restful API to query and parse movie info from the open movie database. Perform data transformation and summarization.
 
+[Project report](https://rpubs.com/clh2021/1114162)
+
 Key features:
 
 - API query
